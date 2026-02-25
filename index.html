@@ -53,6 +53,12 @@ button:hover {
   mar
 }
 
+.container {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
 img {
   margin-left: 670px; 
   margin-top: -600px;
@@ -62,6 +68,11 @@ img {
 audio {
   margin-left: 750px;
   margin-top: 300px;
+}
+
+.simpsonscontainer {
+  display: flex;
+  justify-content: flex-start;
 }
 
 #thesimpsons {
@@ -85,8 +96,12 @@ audio {
 <button id = button3>monkey</button>
 <button>buttons</button>
 
-<img src="Screenshot_20260223_075638_Gallery.webp" width="450">
+<div class = container>
+  <img src="Screenshot_20260223_075638_Gallery.webp" width="450">
+</div>
 
 <audio src="The Simpsons Main Title Theme.mp3"controls></audio>
 
-<<img id = 'thesimpsons' src="The_Simpsons_logo.svg.png" alt="The_Simpsons_logo.svg.png">
+<div class = simpsonscontainer>
+<img id = 'thesimpsons' src="The_Simpsons_logo.svg.png" alt="The_Simpsons_logo.svg.png">
+</div>
