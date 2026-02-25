@@ -17,6 +17,13 @@ body {
   linear-gradient(to bottom, skyblue, #2478c7, 
   skyblue);
 }
+
+.idontknow {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
   button {
   font-family: 'Times New Roman', Times, Georgia, serif;
   font-size: 50px;
@@ -28,24 +35,23 @@ body {
   border-radius: 8px;
   margin-top: 0px;
   transition-duration: 1s;
-  display: flex;
 }
 
 button:hover {
   background-color: dodgerblue;
   color: white;
-  width: 260px;
+  width: 400px;
+  height: 350px;
   border: 100px;
 }
 
 .container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 img {
   margin-left: 670px; 
-  margin-top: -800px;
   border-radius: 100px;
 }
 
@@ -62,7 +68,6 @@ audio {
 #thesimpsons {
   margin-left: -0px;
   margin-top: -200px;
-  padding-bottom: 600px;
   width: 550px;
   height: 300px;
 }
@@ -71,15 +76,15 @@ audio {
 
 <h1>JONATHAN DORAN</h1>
 
+<div class = idontknow>
 <button>the</button>
-
 <button id = button2>funky</button>
-
-<button id = button3>monkey</button>
-<button>buttons</button>
+<button id = button3>monkey<buttonn>
+<button id = button4>buttons</button>
+</div>
 
 <div class = container>
-  <img src="Screenshot_20260223_075638_Gallery.webp" width="450">
+  <img src="jonathan.webp" width="450">
 </div>
 
 <audio src="The Simpsons Main Title Theme.mp3"controls></audio>
