@@ -1,0 +1,84 @@
+h1 {
+  color: darkblue;
+  font-size: 120px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  border: 10px solid;
+  padding-left: 100px;
+  width: 1000px;
+  height: 300px;
+  margin-bottom: px;
+  border-radius: 50px;
+  background: floralwhite;
+}
+
+body {
+  background-image:
+  linear-gradient(to bottom, skyblue, #2478c7, 
+  skyblue);
+}
+
+.idontknow {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+  button {
+  font-family: 'Times New Roman', Times, Georgia, serif;
+  font-size: 50px;
+  background-color: white;
+  color: darkblue;
+  border: 8px solid darkblue;
+  width: 235px;
+  height: 200px;
+  border-radius: 8px;
+  margin-top: 0px;
+  transition-duration: 1s;
+}
+
+button:hover {
+  background-color: dodgerblue;
+  color: white;
+  width: 400px;
+  height: 350px;
+  border: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+}
+
+img {
+  border-radius: 100px;
+}
+
+#john {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -300px;
+  pointer-events: none;
+}
+
+.jonathanbounce {
+  display: flex;
+  position: absolute
+  
+}
+
+audio {
+  margin-left: 750px;
+  margin-top: 300px;
+}
+
+.simpsonscontainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#thesimpsons {
+  margin-left: -0px;
+  margin-top: -200px;
+  width: 550px;
+  height: 300px;
+}
