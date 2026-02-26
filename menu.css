@@ -1,0 +1,23 @@
+body {
+  background-image:
+  linear-gradient(to bottom, skyblue, #2478c7, 
+  skyblue);
+}
+
+button {
+  border-radius: 10px;
+  border: 20px, solid, darkblue;
+  color: darkblue;
+  font-family: 'Times New Roman', Times, Georgia, serif;
+  font-size: 100px;
+  width: 400px;
+  height: 200px;
+  transition-duration: 1s;
+}
+
+button:hover {
+  width: 450px;
+  height: 250px;
+  background-color: dodgerblue;
+  color: white;
+}
