@@ -16,6 +16,7 @@ h1 {
   border: 40px darkblue, solid;
   border-radius: 20px;
   height: 200px;
+  max-width: 900px;
   font-size: 100px;
   color: darkblue;
 }
