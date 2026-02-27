@@ -15,7 +15,7 @@ h1 {
   background-color: white;
   border: 10px darkblue, solid;
   border-radius: 20px;
-  height: 250px;
+  height: 200px;
   font-size: 100px;
   color: darkblue;
 }
@@ -26,14 +26,21 @@ button {
   color: darkblue;
   font-family: 'Times New Roman', Times, Georgia, serif;
   font-size: 100px;
-  width: 400px;
+  width: 200px;
   height: 200px;
   transition-duration: 1s;
 }
 
 button:hover {
-  width: 450px;
-  height: 250px;
+  width: 250px;
+  height: 200px;
   background-color: dodgerblue;
   color: white;
 }
+
+#jonathan {
+  display: flex;
+  position: absolute;
+  pointer-events: none;
+}
+
