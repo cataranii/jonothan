@@ -16,14 +16,14 @@ h1 {
   border: 40px darkblue, solid;
   border-radius: 20px;
   height: 200px;
-  max-width: 900px;
+  width: 900px;
   font-size: 100px;
   color: darkblue;
 }
 
 .buttons {
   display: flex;
-  flex-direction: row;
+  flex-direction: overflow;
   justify-content: center;
   flex-wrap: wrap;
 }
