@@ -18,7 +18,7 @@ body {
 }
 
 .idontknow {
-  position: absolute;
+  position: block;
   display: flex;
   flex-direction: column;
 }
@@ -29,18 +29,18 @@ body {
   background-color: white;
   color: darkblue;
   border: 8px solid darkblue;
-  width: 235px;
-  height: 900px;
+  width: 900px;
+  height: 200px;
   border-radius: 8px;
-  margin-top: 0px;
+  margin-left: 2em;
   transition-duration: 1s;
 }
 
 button:hover {
   background-color: dodgerblue;
   color: white;
-  width: 400px;
-  height: 950px;
+  width: 900px;
+  height: 200px;
   border: 100px;
 }
 
@@ -50,6 +50,7 @@ button:hover {
 }
 
 img {
+  margin-top: 10px;
   border-radius: 100px;
 }
 
