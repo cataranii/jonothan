@@ -38,7 +38,10 @@ body {
 
 button:hover {
   background-color: dodgerblue;
-
+  color: white;
+  width: 900px;
+  height: 200px;
+  border: 100px;
 }
 
 .container {
