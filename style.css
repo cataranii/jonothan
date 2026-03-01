@@ -4,7 +4,6 @@ h1 {
   font-family: 'Georgia', 'Times New Roman', Times, serif;
   border: 10px solid;
   padding-left: 100px;
-  width: 1000px;
   height: 300px;
   margin-bottom: px;
   border-radius: 50px;
@@ -13,13 +12,14 @@ h1 {
 
 body {
   background-image:
-  linear-gradient(to bottom, skyblue, #2478c7, 
+  linear-gradient(to bottom,white, #2478c7, 
   skyblue);
 }
 
 .idontknow {
   position: block;
   display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -27,21 +27,19 @@ body {
   font-family: 'Times New Roman', Times, Georgia, serif;
   font-size: 50px;
   background-color: white;
-  color: darkblue;
-  border: 8px solid darkblue;
-  width: 900px;
+  color: rgb(0, 0, 255);
+  border: 8px solid rgb(0, 0, 139);
+  width: 1000px;
   height: 200px;
   border-radius: 8px;
   margin-left: 2em;
-  transition-duration: 1s;
+  transition-duration: 0.25s;
 }
 
 button:hover {
   background-color: dodgerblue;
   color: white;
-  width: 900px;
-  height: 200px;
-  border: 100px;
+
 }
 
 .container {
