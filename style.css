@@ -4,6 +4,7 @@ h1 {
   font-family: 'Georgia', 'Times New Roman', Times, serif;
   border: 10px solid;
   padding-left: 100px;
+  width: 1000px;
   height: 300px;
   margin-bottom: px;
   border-radius: 50px;
@@ -32,7 +33,6 @@ body {
   width: 1000px;
   height: 200px;
   border-radius: 8px;
-  margin-left: 2em;
   transition-duration: 0.25s;
 }
 
