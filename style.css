@@ -50,6 +50,8 @@ button:hover {
 }
 
 img {
+  display: flex;
+  justify-content: right;
   margin-top: 10px;
   border-radius: 100px;
 }
